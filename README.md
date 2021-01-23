@@ -148,7 +148,7 @@ In my case i stopped the cluster by using this command `minikube stop`
 -   Add a status badge using this template: `[![<github_username>](https://circleci.com/gh/<github_username>/<repository>.svg?style=svg)]
 
 badge for circle/ci
-[![mnabil1989](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-nabil.svg?style=svg)](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-nabil)
+[![mnabil1989](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-moenabil.svg?style=svg)](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-moenabil)
 ### ########################################################
 
 ## Workarounds
@@ -158,4 +158,4 @@ badge for circle/ci
 We should run minikube not less than 4 G Ram so i select t3.medium that 4G for ram and 2 Vcpu.
 > Don't forget update the `make_prediction.sh` script to use the same port as you are using to run the docker app _(with or without kubernetes)
 Kindly use the link for app python
-http://ec2-54-184-128-28.us-west-2.compute.amazonaws.com/
+http://ec2-34-212-33-189.us-west-2.compute.amazonaws.com/
