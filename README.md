@@ -157,5 +157,16 @@ badge for circle/ci
 
 We should run minikube not less than 4 G Ram so i select t3.medium that 4G for ram and 2 Vcpu.
 > Don't forget update the `make_prediction.sh` script to use the same port as you are using to run the docker app _(with or without kubernetes)
+### Adding tests
+
+Add `pytest` to the `requirements.txt` file and update the `Makefile` to add this command `python3 -m pytest -vv test_app.py` which is the file that contains the tests for `home` and `predict` endpoints.
+
+### Linting warnings
+
+The warning for logging format interpolation appears when we want to use f-strings but we can disable using W1202. So we need change this command `pylint --disable=R,C,W1203` to `pylint --disable=R,C,W1202`
+
+### Tests on Circle CI
+
+For pytest: https://circleci.com/docs/2.0/collect-test-data/#pytest
 Kindly use the link for app python
 http://ec2-34-212-33-189.us-west-2.compute.amazonaws.com/
