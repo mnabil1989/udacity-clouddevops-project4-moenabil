@@ -145,7 +145,7 @@ In my case i stopped the cluster by using this command `minikube stop`
 
 -   Create a [CircleCI Account](https://circleci.com/) (use your Github account for a better integration)
 -   Create a config using this [template](https://raw.githubusercontent.com/udacity/DevOps_Microservices/master/Lesson-2-Docker-format-containers/class-demos/.circleci/config.yml)
--   Add a status badge using this template: `[![<github_username>](https://circleci.com/gh/<github_username>/<repository>.svg?style=svg)]
+-   Add a status badge using this template: `[![<github_username>](https://circleci.com/gh/<github_username>/<repository>.svg?style=svg)]`
 
 badge for circle/ci
 [![mnabil1989](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-moenabil.svg?style=svg)](https://circleci.com/gh/mnabil1989/udacity-clouddevops-project4-moenabil)
