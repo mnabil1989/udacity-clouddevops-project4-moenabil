@@ -1,6 +1,3 @@
-pod/app created
-NAME   READY   STATUS              RESTARTS   AGE
-app    0/1     ContainerCreating   0          0s
 python3 app.py
  * Serving Flask app "app" (lazy loading)
  * Environment: production
@@ -10,26 +7,37 @@ python3 app.py
  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 119-069-930
-[2021-01-23 08:00:46,947] INFO in app: JSON payload: 
+ * Debugger PIN: 286-667-915
+127.0.0.1 - - [23/Jan/2021 13:19:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:19:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:22:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:22:47] "GET / HTTP/1.1" 200 -
+[2021-01-23 13:23:24,895] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2021-01-23 08:00:46,961] INFO in app: Inference payload DataFrame: 
+[2021-01-23 13:23:24,909] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2021-01-23 08:00:46,971] INFO in app: Scaling Payload: 
+[2021-01-23 13:23:24,920] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2021-01-23 08:00:47,039] INFO in app: Prediction: 
+[2021-01-23 13:23:24,977] INFO in app: Prediction: 
 [20.35373177134412]
-127.0.0.1 - - [23/Jan/2021 08:00:47] "POST /predict HTTP/1.1" 200 -
-[2021-01-23 08:03:51,540] INFO in app: JSON payload: 
+127.0.0.1 - - [23/Jan/2021 13:23:24] "POST /predict HTTP/1.1" 200 -
+[2021-01-23 13:23:36,155] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2021-01-23 08:03:51,553] INFO in app: Inference payload DataFrame: 
+[2021-01-23 13:23:36,169] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2021-01-23 08:03:51,563] INFO in app: Scaling Payload: 
+[2021-01-23 13:23:36,179] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2021-01-23 08:03:51,587] INFO in app: Prediction: 
+[2021-01-23 13:23:36,203] INFO in app: Prediction: 
 [20.35373177134412]
-127.0.0.1 - - [23/Jan/2021 08:03:51] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2021 13:23:36] "POST /predict HTTP/1.1" 200 -
